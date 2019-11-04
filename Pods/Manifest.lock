@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - mixing_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../mixing_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../mixing_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - mixing_flutter (from `../mixing_flutter/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../mixing_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../mixing_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  mixing_flutter:
+    :path: "../mixing_flutter/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  mixing_flutter: 899a8beb6d8c8c03e02b804dc63a9bdd3a3804a8
+
+PODFILE CHECKSUM: e466467b67a594d5df834c01d359f5f3e5d8ae99
+
+COCOAPODS: 1.8.4

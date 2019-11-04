@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3F35EC1629BDBD899019A9 /* libPods-MixingiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 880EF3BA396651E000D1C364 /* libPods-MixingiOS.a */; };
+		8B01C171237021A700B49A2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01C170237021A700B49A2E /* AppDelegate.m */; };
+		8B01C174237021A700B49A2E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01C173237021A700B49A2E /* SceneDelegate.m */; };
+		8B01C177237021A700B49A2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01C176237021A700B49A2E /* ViewController.m */; };
+		8B01C17A237021A700B49A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B01C178237021A700B49A2E /* Main.storyboard */; };
+		8B01C17C237021A800B49A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B01C17B237021A800B49A2E /* Assets.xcassets */; };
+		8B01C17F237021A800B49A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B01C17D237021A800B49A2E /* LaunchScreen.storyboard */; };
+		8B01C182237021A800B49A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01C181237021A800B49A2E /* main.m */; };
+		8B01C18C237021A900B49A2E /* MixingiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01C18B237021A900B49A2E /* MixingiOSTests.m */; };
+		8B01C197237021A900B49A2E /* MixingiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B01C196237021A900B49A2E /* MixingiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B01C188237021A900B49A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B01C164237021A700B49A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B01C16B237021A700B49A2E;
+			remoteInfo = MixingiOS;
+		};
+		8B01C193237021A900B49A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B01C164237021A700B49A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B01C16B237021A700B49A2E;
+			remoteInfo = MixingiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880EF3BA396651E000D1C364 /* libPods-MixingiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixingiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B01C16C237021A700B49A2E /* MixingiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixingiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B01C16F237021A700B49A2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B01C170237021A700B49A2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B01C172237021A700B49A2E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8B01C173237021A700B49A2E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8B01C175237021A700B49A2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B01C176237021A700B49A2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B01C179237021A700B49A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B01C17B237021A800B49A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B01C17E237021A800B49A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B01C180237021A800B49A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B01C181237021A800B49A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B01C187237021A900B49A2E /* MixingiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixingiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B01C18B237021A900B49A2E /* MixingiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixingiOSTests.m; sourceTree = "<group>"; };
+		8B01C18D237021A900B49A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B01C192237021A900B49A2E /* MixingiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixingiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B01C196237021A900B49A2E /* MixingiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixingiOSUITests.m; sourceTree = "<group>"; };
+		8B01C198237021A900B49A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6AC94BF3D4ABAD093C3360 /* Pods-MixingiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixingiOS.debug.xcconfig"; path = "Target Support Files/Pods-MixingiOS/Pods-MixingiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D37AED1CD3D39A36BEEAC6CD /* Pods-MixingiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixingiOS.release.xcconfig"; path = "Target Support Files/Pods-MixingiOS/Pods-MixingiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B01C169237021A700B49A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3F35EC1629BDBD899019A9 /* libPods-MixingiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01C184237021A900B49A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01C18F237021A900B49A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78023A8BB692699481E8BD5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA6AC94BF3D4ABAD093C3360 /* Pods-MixingiOS.debug.xcconfig */,
+				D37AED1CD3D39A36BEEAC6CD /* Pods-MixingiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B01C163237021A700B49A2E = {
+			isa = PBXGroup;
+			children = (
+				8B01C16E237021A700B49A2E /* MixingiOS */,
+				8B01C18A237021A900B49A2E /* MixingiOSTests */,
+				8B01C195237021A900B49A2E /* MixingiOSUITests */,
+				8B01C16D237021A700B49A2E /* Products */,
+				78023A8BB692699481E8BD5E /* Pods */,
+				C60522A853D3A62F8BCB6189 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B01C16D237021A700B49A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B01C16C237021A700B49A2E /* MixingiOS.app */,
+				8B01C187237021A900B49A2E /* MixingiOSTests.xctest */,
+				8B01C192237021A900B49A2E /* MixingiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B01C16E237021A700B49A2E /* MixingiOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B01C16F237021A700B49A2E /* AppDelegate.h */,
+				8B01C170237021A700B49A2E /* AppDelegate.m */,
+				8B01C172237021A700B49A2E /* SceneDelegate.h */,
+				8B01C173237021A700B49A2E /* SceneDelegate.m */,
+				8B01C175237021A700B49A2E /* ViewController.h */,
+				8B01C176237021A700B49A2E /* ViewController.m */,
+				8B01C178237021A700B49A2E /* Main.storyboard */,
+				8B01C17B237021A800B49A2E /* Assets.xcassets */,
+				8B01C17D237021A800B49A2E /* LaunchScreen.storyboard */,
+				8B01C180237021A800B49A2E /* Info.plist */,
+				8B01C181237021A800B49A2E /* main.m */,
+			);
+			path = MixingiOS;
+			sourceTree = "<group>";
+		};
+		8B01C18A237021A900B49A2E /* MixingiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B01C18B237021A900B49A2E /* MixingiOSTests.m */,
+				8B01C18D237021A900B49A2E /* Info.plist */,
+			);
+			path = MixingiOSTests;
+			sourceTree = "<group>";
+		};
+		8B01C195237021A900B49A2E /* MixingiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B01C196237021A900B49A2E /* MixingiOSUITests.m */,
+				8B01C198237021A900B49A2E /* Info.plist */,
+			);
+			path = MixingiOSUITests;
+			sourceTree = "<group>";
+		};
+		C60522A853D3A62F8BCB6189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				880EF3BA396651E000D1C364 /* libPods-MixingiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B01C16B237021A700B49A2E /* MixingiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B01C19B237021A900B49A2E /* Build configuration list for PBXNativeTarget "MixingiOS" */;
+			buildPhases = (
+				FBE2692D950402EC2D37C27A /* [CP] Check Pods Manifest.lock */,
+				A56762BD89403F99FD5CB9ED /* [CP-User] Run Flutter Build Script */,
+				8B01C168237021A700B49A2E /* Sources */,
+				8B01C169237021A700B49A2E /* Frameworks */,
+				8B01C16A237021A700B49A2E /* Resources */,
+				E8B6A48534440DAEA514A018 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixingiOS;
+			productName = MixingiOS;
+			productReference = 8B01C16C237021A700B49A2E /* MixingiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B01C186237021A900B49A2E /* MixingiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B01C19E237021A900B49A2E /* Build configuration list for PBXNativeTarget "MixingiOSTests" */;
+			buildPhases = (
+				8B01C183237021A900B49A2E /* Sources */,
+				8B01C184237021A900B49A2E /* Frameworks */,
+				8B01C185237021A900B49A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B01C189237021A900B49A2E /* PBXTargetDependency */,
+			);
+			name = MixingiOSTests;
+			productName = MixingiOSTests;
+			productReference = 8B01C187237021A900B49A2E /* MixingiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B01C191237021A900B49A2E /* MixingiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B01C1A1237021A900B49A2E /* Build configuration list for PBXNativeTarget "MixingiOSUITests" */;
+			buildPhases = (
+				8B01C18E237021A900B49A2E /* Sources */,
+				8B01C18F237021A900B49A2E /* Frameworks */,
+				8B01C190237021A900B49A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B01C194237021A900B49A2E /* PBXTargetDependency */,
+			);
+			name = MixingiOSUITests;
+			productName = MixingiOSUITests;
+			productReference = 8B01C192237021A900B49A2E /* MixingiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B01C164237021A700B49A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "黄陈";
+				TargetAttributes = {
+					8B01C16B237021A700B49A2E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					8B01C186237021A900B49A2E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 8B01C16B237021A700B49A2E;
+					};
+					8B01C191237021A900B49A2E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 8B01C16B237021A700B49A2E;
+					};
+				};
+			};
+			buildConfigurationList = 8B01C167237021A700B49A2E /* Build configuration list for PBXProject "MixingiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B01C163237021A700B49A2E;
+			productRefGroup = 8B01C16D237021A700B49A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B01C16B237021A700B49A2E /* MixingiOS */,
+				8B01C186237021A900B49A2E /* MixingiOSTests */,
+				8B01C191237021A900B49A2E /* MixingiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B01C16A237021A700B49A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01C17F237021A800B49A2E /* LaunchScreen.storyboard in Resources */,
+				8B01C17C237021A800B49A2E /* Assets.xcassets in Resources */,
+				8B01C17A237021A700B49A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01C185237021A900B49A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01C190237021A900B49A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A56762BD89403F99FD5CB9ED /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Users/huangchen/DEVELOP/mixingProject/mixing_flutter/.metadata",
+				"${SRCROOT}/../mixing_flutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../mixing_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../mixing_flutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../mixing_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		E8B6A48534440DAEA514A018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MixingiOS/Pods-MixingiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MixingiOS/Pods-MixingiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MixingiOS/Pods-MixingiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE2692D950402EC2D37C27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MixingiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B01C168237021A700B49A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01C177237021A700B49A2E /* ViewController.m in Sources */,
+				8B01C171237021A700B49A2E /* AppDelegate.m in Sources */,
+				8B01C182237021A800B49A2E /* main.m in Sources */,
+				8B01C174237021A700B49A2E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01C183237021A900B49A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01C18C237021A900B49A2E /* MixingiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01C18E237021A900B49A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01C197237021A900B49A2E /* MixingiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B01C189237021A900B49A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B01C16B237021A700B49A2E /* MixingiOS */;
+			targetProxy = 8B01C188237021A900B49A2E /* PBXContainerItemProxy */;
+		};
+		8B01C194237021A900B49A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B01C16B237021A700B49A2E /* MixingiOS */;
+			targetProxy = 8B01C193237021A900B49A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B01C178237021A700B49A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B01C179237021A700B49A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B01C17D237021A800B49A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B01C17E237021A800B49A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B01C199237021A900B49A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B01C19A237021A900B49A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B01C19C237021A900B49A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6AC94BF3D4ABAD093C3360 /* Pods-MixingiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JRJGYXHK8;
+				INFOPLIST_FILE = MixingiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcjcch.MixingiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B01C19D237021A900B49A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37AED1CD3D39A36BEEAC6CD /* Pods-MixingiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JRJGYXHK8;
+				INFOPLIST_FILE = MixingiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcjcch.MixingiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B01C19F237021A900B49A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JRJGYXHK8;
+				INFOPLIST_FILE = MixingiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcjcch.MixingiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixingiOS.app/MixingiOS";
+			};
+			name = Debug;
+		};
+		8B01C1A0237021A900B49A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JRJGYXHK8;
+				INFOPLIST_FILE = MixingiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcjcch.MixingiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixingiOS.app/MixingiOS";
+			};
+			name = Release;
+		};
+		8B01C1A2237021A900B49A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JRJGYXHK8;
+				INFOPLIST_FILE = MixingiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcjcch.MixingiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MixingiOS;
+			};
+			name = Debug;
+		};
+		8B01C1A3237021A900B49A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JRJGYXHK8;
+				INFOPLIST_FILE = MixingiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcjcch.MixingiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MixingiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B01C167237021A700B49A2E /* Build configuration list for PBXProject "MixingiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01C199237021A900B49A2E /* Debug */,
+				8B01C19A237021A900B49A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B01C19B237021A900B49A2E /* Build configuration list for PBXNativeTarget "MixingiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01C19C237021A900B49A2E /* Debug */,
+				8B01C19D237021A900B49A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B01C19E237021A900B49A2E /* Build configuration list for PBXNativeTarget "MixingiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01C19F237021A900B49A2E /* Debug */,
+				8B01C1A0237021A900B49A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B01C1A1237021A900B49A2E /* Build configuration list for PBXNativeTarget "MixingiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01C1A2237021A900B49A2E /* Debug */,
+				8B01C1A3237021A900B49A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B01C164237021A700B49A2E /* Project object */;
+}

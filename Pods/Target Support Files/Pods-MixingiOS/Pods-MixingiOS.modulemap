@@ -1,0 +1,6 @@
+framework module Pods_MixingiOS {
+  umbrella header "Pods-MixingiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
